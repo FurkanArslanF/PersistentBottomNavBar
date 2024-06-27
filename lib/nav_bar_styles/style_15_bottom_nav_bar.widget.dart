@@ -61,7 +61,7 @@ class BottomNavStyle15 extends StatelessWidget {
       : Container(
           width: 150,
           height: height,
-          margin: EdgeInsets.only(top: navBarEssentials!.padding?.top ?? navBarEssentials!.navBarHeight! * 0.06, bottom: navBarEssentials!.padding?.bottom ?? navBarEssentials!.navBarHeight! * 0.06),
+          margin: const EdgeInsets.only(bottom: 50),
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             color: item.activeColorPrimary,
