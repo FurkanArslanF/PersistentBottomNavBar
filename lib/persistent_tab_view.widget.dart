@@ -473,7 +473,7 @@ class _PersistentTabViewState extends State<PersistentTabView> {
                 },
                 child: Center(
                   child: Container(
-                    height: 1.0 +
+                    height: 21.0 +
                         min(
                             widget.navBarHeight!,
                             max(
