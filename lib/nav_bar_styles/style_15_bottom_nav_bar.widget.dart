@@ -105,7 +105,14 @@ class BottomNavStyle15 extends StatelessWidget {
                           color: item.activeColorPrimary,
                           border:
                               Border.all(color: Colors.transparent, width: 5),
-                          boxShadow: navBarDecoration!.boxShadow,
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black.withOpacity(0.1),
+                              blurRadius: 10,
+                              spreadRadius: 5,
+                              offset: const Offset(0, 10),
+                            ),
+                          ],
                         ),
                         child: Container(
                           alignment: Alignment.center,
