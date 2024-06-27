@@ -22,7 +22,7 @@ class BottomNavStyle15 extends StatelessWidget {
               color: Colors.transparent,
               padding: EdgeInsets.only(
                   top: navBarEssentials!.padding?.top ??
-                      navBarEssentials!.navBarHeight! * 0.15,
+                      navBarEssentials!.navBarHeight! * 0.1,
                   bottom: navBarEssentials!.padding?.bottom ??
                       navBarEssentials!.navBarHeight! * 0.12),
               child: Container(
