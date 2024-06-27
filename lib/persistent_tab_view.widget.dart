@@ -458,6 +458,10 @@ class _PersistentTabViewState extends State<PersistentTabView> {
             const SizedBox.shrink()
           else
             Positioned(
+              bottom: (_navBarHeight! -
+                      (widget.bottomScreenMargin ??
+                          _navBarHeight! + widget.margin.top))
+                  .abs(),
               child: GestureDetector(
                 onTap: () {
                   if (widget.items![(widget.items!.length / 2).floor()]
