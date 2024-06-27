@@ -17,14 +17,14 @@ class BottomNavStyle15 extends StatelessWidget {
       navBarEssentials!.navBarHeight == 0
           ? const SizedBox.shrink()
           : Container(
-              width: 100,
+              width: 150,
               height: height,
               color: Colors.transparent,
-              // padding: EdgeInsets.only(
-              //     top: navBarEssentials!.padding?.top ??
-              //         navBarEssentials!.navBarHeight! * 0.1,
-              //     bottom: navBarEssentials!.padding?.bottom ??
-              //         navBarEssentials!.navBarHeight! * 0.12),
+              padding: EdgeInsets.only(
+                  top: navBarEssentials!.padding?.top ??
+                      navBarEssentials!.navBarHeight! * 0.15,
+                  bottom: navBarEssentials!.padding?.bottom ??
+                      navBarEssentials!.navBarHeight! * 0.12),
               child: Container(
                 alignment: Alignment.center,
                 height: height,
@@ -99,7 +99,7 @@ class BottomNavStyle15 extends StatelessWidget {
                       child: Container(
                         width: 150,
                         height: height,
-                        margin: const EdgeInsets.only(top: 2),
+                        //margin: const EdgeInsets.only(top: 2),
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           color: item.activeColorPrimary,
