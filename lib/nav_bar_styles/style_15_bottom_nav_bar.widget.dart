@@ -76,9 +76,9 @@ class BottomNavStyle15 extends StatelessWidget {
                       boxShadow: [
                         BoxShadow(
                           color: const Color(0xFF5B7BFF).withOpacity(0.4),
-                          blurRadius: 10,
+                          blurRadius: 5,
                           spreadRadius: 5,
-                          offset: const Offset(0, 10),
+                          offset: const Offset(0, 5),
                         ),
                       ],
                     ),
